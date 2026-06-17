@@ -1,0 +1,75 @@
+@media (max-width: 768px) {
+  .hero-name {
+    font-size: 20px;
+  }
+
+  .nav-left,
+  .nav-right {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    text-align: start;
+  }
+
+  /* target info */
+  .target-info {
+    margin-top: 10px;
+  }
+  /* certification */
+
+  .cert-ai {
+    border-left: none;
+  }
+  .cert-line {
+    display: none;
+  }
+
+  .cert-item {
+    border-bottom: 1px solid #d67600;
+    margin-bottom: 20px;
+  }
+
+  /* .nav-left{
+ 
+} */
+  .nav-bar {
+    height: 120px;
+  }
+
+  /* project */
+  .proj-bar {
+    display: flex;
+    gap: 20px;
+  }
+  .col-pro {
+    margin-bottom: 30px;
+  }
+
+  .pro-link {
+    align-self: center;
+  }
+
+  .proj-item img {
+    margin-bottom: 10px;
+  }
+
+  footer {
+    flex-direction: row; /* Ép buộc luôn nằm trên một hàng ngang */
+    flex-wrap: nowrap; /* Tuyệt đối không cho phép xuống dòng */
+    gap: 5px; /* Thu nhỏ khoảng cách giữa 3 khối để vừa màn hình nhỏ */
+    padding: 10px 5px; /* Giảm bớt padding để tăng không gian hiển thị */
+  }
+
+  footer div {
+    gap: 5px; /* Thu nhỏ khoảng cách giữa Icon và Chữ bên trong */
+  }
+
+  footer div i {
+    font-size: 20px; /* Thu nhỏ icon xuống 20px (vẫn rất dễ nhìn trên mobile) */
+  }
+
+  footer div span {
+    font-size: 13px; /* Thu nhỏ chữ xuống 13px để không chiếm diện tích */
+    white-space: nowrap; /* Giữ cho chữ "Facebook", "Linkedin" không bị ngắt thành 2 dòng */
+  }
+}

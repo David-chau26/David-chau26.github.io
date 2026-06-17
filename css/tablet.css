@@ -1,0 +1,47 @@
+@media (max-width: 992px) {
+  /* target info */
+  .target-info {
+    margin: 0 0;
+  }
+  .target,
+  .info {
+    /* margin-top: 50px;
+  margin-left: 20px; */
+    margin: 0px 0px;
+  }
+
+  /* certificate */
+  .cert-item {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  /* project */
+.proj-item h3{
+font-size: medium;
+}
+.proj-bar{
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  gap:5px;
+}
+.pro-date{
+  grid-row:1/-3 ;
+}
+
+dt {
+  display: inline-block;
+  width: 30%;
+  font-weight: bold;
+}
+}
+
+/* nut view more  */
+/* .btn-view {
+
+right: 10px;
+ 
+  
+ 
+} */
